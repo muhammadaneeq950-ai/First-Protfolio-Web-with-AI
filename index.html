@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aneeq | Creative Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">ANEEQ<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+      <canvas id="particles"></canvas>
+    </div>
+    <div class="hero-content">
+      <p class="hero-subtitle animate-item">Creative Professional</p>
+      <h1 class="hero-title">
+        <span class="title-line animate-item">Designing</span>
+        <span class="title-line animate-item">Developing</span>
+        <span class="title-line animate-item">& Creating</span>
+      </h1>
+      <p class="hero-desc animate-item">I craft stunning digital experiences that blend creativity with functionality.</p>
+      <div class="hero-btns animate-item">
+        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+      </div>
+      <div class="scroll-indicator animate-item">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+    <div class="hero-socials animate-item">
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Creative Mind,<br>Technical Skills</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <div class="image-frame">
+            <div class="image-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="image-border"></div>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <h3>I'm Muhammad Aneeq</h3>
+          <p class="about-role">Graphic Designer • Web Developer • Social Media Manager</p>
+          <p class="about-text">I transform ideas into visually stunning and functionally powerful digital experiences. With expertise spanning graphic design, web development, and social media management, I help brands stand out in the digital landscape.</p>
+          
+          <div class="stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="5">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="120">0</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="50">0</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+          
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Services</span>
+        <h2 class="section-title">What I Do</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal-up" data-delay="0">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Logos, brand identities, marketing materials, and visual content that captivate and communicate.</p>
+          <div class="service-hover">
+            <span>View Projects</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal-up" data-delay="100">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites and web applications built with cutting-edge technologies.</p>
+          <div class="service-hover">
+            <span>View Projects</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal-up" data-delay="200">
+          <div class="service-icon">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h3>Social Media</h3>
+          <p>Strategic social media management to grow your brand and engage your audience.</p>
+          <div class="service-hover">
+            <span>View Projects</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal-up" data-delay="300">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>User-centered designs that are beautiful, intuitive, and delightful to use.</p>
+          <div class="service-hover">
+            <span>View Projects</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal-up" data-delay="400">
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Professional video editing and motion graphics for content that engages.</p>
+          <div class="service-hover">
+            <span>View Projects</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal-up" data-delay="500">
+          <div class="service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>Comprehensive digital strategies to boost your online presence and conversions.</p>
+          <div class="service-hover">
+            <span>View Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="development">Development</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item reveal-scale" data-category="design">
+          <div class="portfolio-image">
+            <div class="portfolio-placeholder">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Graphic Design</span>
+            <h4>Brand Identity Project</h4>
+            <p>Complete brand redesign for a luxury fashion label</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal-scale" data-category="development">
+          <div class="portfolio-image">
+            <div class="portfolio-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Web Development</span>
+            <h4>E-Commerce Platform</h4>
+            <p>Full-stack e-commerce solution with modern UI</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal-scale" data-category="social">
+          <div class="portfolio-image">
+            <div class="portfolio-placeholder">
+              <i class="fas fa-hashtag"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Social Media</span>
+            <h4>Campaign Management</h4>
+            <p>Social media strategy that increased engagement by 300%</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal-scale" data-category="design">
+          <div class="portfolio-image">
+            <div class="portfolio-placeholder">
+              <i class="fas fa-vector-square"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">UI/UX Design</span>
+            <h4>Mobile App Design</h4>
+            <p>Intuitive mobile app interface for fintech startup</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal-scale" data-category="development">
+          <div class="portfolio-image">
+            <div class="portfolio-placeholder">
+              <i class="fas fa-server"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Web Development</span>
+            <h4>SaaS Dashboard</h4>
+            <p>Analytics dashboard with real-time data visualization</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal-scale" data-category="social">
+          <div class="portfolio-image">
+            <div class="portfolio-placeholder">
+              <i class="fas fa-users"></i>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Social Media</span>
+            <h4>Influencer Campaign</h4>
+            <p>Influencer marketing campaign for product launch</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">Client Reviews</h2>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left"></i>
+            <p>"Aneeq is an incredibly talented designer. He transformed our brand identity and delivered beyond our expectations."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">JD</div>
+            <div class="author-info">
+              <h4>John Doe</h4>
+              <span>CEO, TechStart</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left"></i>
+            <p>"Professional, creative, and delivers on time. Our new website has significantly improved our conversions."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">SM</div>
+            <div class="author-info">
+              <h4>Sarah Miller</h4>
+              <span>Marketing Director</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left"></i>
+            <p>"Our social media presence has grown tremendously thanks to Aneeq's strategic approach."</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">AK</div>
+            <div class="author-info">
+              <h4>Ali Khan</h4>
+              <span>Founder, StyleHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Work Together</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3>Get In Touch</h3>
+          <p>Have a project in mind? Let's discuss how I can help bring your vision to life.</p>
+          
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span>Email</span>
+                <a href="mailto:hello@aneeq.com">hello@aneeq.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <span>Phone</span>
+                <a href="tel:+1234567890">+1 234 567 890</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <span>Location</span>
+                <span>Pakistan</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-socials">
+            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form reveal-right">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" required>
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required>
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <select id="service" required>
+                <option value="">Select Service</option>
+                <option value="design">Graphic Design</option>
+                <option value="development">Web Development</option>
+                <option value="social">Social Media Management</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">ANEEQ<span class="dot">.</span></div>
+        <p>Creating digital experiences that inspire.</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Muhammad Aneeq. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CURSOR -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
